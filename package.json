@@ -1,5 +1,5 @@
 {
-  "name": "@itsyanko/generic-ipc",
+  "name": "generic-ipc",
   "version": "0.0.2",
   "description": "Customizable IPC protocol based on socket.io",
   "main": "index.js",
