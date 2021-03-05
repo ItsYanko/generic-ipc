@@ -1,10 +1,14 @@
 {
   "name": "generic-ipc",
-  "version": "0.0.1",
+  "version": "0.0.",
   "description": "Customizable IPC protocol based on socket.io",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsYanko/generic-ipc.git"
   },
   "keywords": [
     "module",
@@ -13,5 +17,12 @@
     "javascript"
   ],
   "author": "yanko",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ItsYanko/generic-ipc/issues"
+  },
+  "homepage": "https://github.com/ItsYanko/generic-ipc#readme",
+  "dependencies": {
+    "socket.io": "^3.1.2"
+  }
 }
