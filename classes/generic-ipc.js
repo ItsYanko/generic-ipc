@@ -9,5 +9,7 @@
  * let instance = new gIPC(3000, {authorization: true})
  */
 class Server{
-
+    constructor(){
+        
+    }
 }

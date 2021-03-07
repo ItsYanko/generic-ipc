@@ -4,7 +4,8 @@
   "description": "Customizable IPC protocol based on socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen-docs": "node_modules/.bin/jsdoc --configure ./jsdoc.json --verbose"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "homepage": "https://github.com/ItsYanko/generic-ipc#readme",
   "dependencies": {
     "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "docdash": "^1.2.0",
+    "jsdoc": "^3.6.6"
   }
 }
